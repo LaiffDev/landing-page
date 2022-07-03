@@ -136,10 +136,11 @@ header p{
    text-align: center;
    padding: 50px;
    font-size: 20px;
-   background-color: #e5e7eb;
+   background-color:#eee;
    align-items: center;
    font-weight:lighter;
    font-style:italic ;
+   color: #262626;
 }
 
 
@@ -164,10 +165,17 @@ font-size: 20px;
 }
 
 .call{
-   margin-left: 30px;
+   margin-left: 50px;
+   display: flex;
 }
 
-.call-cta{
+.call img{
+   width: 50px;
+   margin: 10px;
+   align-items: center;
+}
+
+/* .call-cta{
    padding: 20px;
    border: 2px solid white;
    background-color: #3882f6;
@@ -175,7 +183,7 @@ font-size: 20px;
    border-radius: 8px;
    font-weight: bold;
    font-size: 18px;
-}
+} */
 
 /* footer */
 
